@@ -31,9 +31,6 @@ if has("wildmenu")
   set wildmode=longest,list
 endif
 
-"Keymap
-inoremap <Tab> <C-X><C-F>
-
 syntax on
 set filetype=on
 filetype plugin on
