@@ -23,6 +23,8 @@ set novisualbell
 
 set backspace=indent,eol,start
 
+let $PAGER='' " needed for using vim as man page viewer
+
 " Wildmenu
 if has("wildmenu")
   set wildignore+=*.a,*.o
