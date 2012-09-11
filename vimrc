@@ -25,6 +25,8 @@ set backspace=indent,eol,start
 
 let $PAGER='' " needed for using vim as man page viewer
 
+set hidden " don't have to save to change buffers - should retain undo history
+
 " Wildmenu
 if has("wildmenu")
   set wildignore+=*.a,*.o
