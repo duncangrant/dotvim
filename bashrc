@@ -4,7 +4,7 @@
 
 # User specific aliases and functions
 export JAVA_HOME=/usr/lib/jvm/java-6-sun
-export PATH=$PATH:/scratch/duncang/tools/bin
+export PATH=$PATH:/scratch/duncang/tools/bin:/scratch/duncang/tools/google_appengine
 export GIT_TEMPLATE_DIR=~/.git_template/
 alias grep='grep --color=auto'
 alias ls='ls --color'
@@ -23,11 +23,14 @@ alias rtd='restartTomcatDebug; restartTomcat6Debug'
 alias rebuildTestDatabase='ant rebuild-databases -Dconfig=test'
 alias diff='meld'
 alias ack='ack-grep'
+alias vi='vim'
 
 export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
     vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
     -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
     -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
+
+export ANT_OPTS=-XX:MaxPermSize=256m
 
 ulimit -n 10000
 
