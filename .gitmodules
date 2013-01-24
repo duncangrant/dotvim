@@ -10,3 +10,6 @@
 [submodule "bundle/speeddating"]
 	path = bundle/speeddating
 	url = https://github.com/tpope/vim-speeddating.git
+[submodule "bundle/govim"]
+	path = bundle/govim
+	url = https://github.com/jnwhiteh/vim-golang.git

@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/etc/init.d'
-let g:netrw_dirhist_2='/scratch/duncang/tools/WorkSpace/radio-site'
-let g:netrw_dirhist_3='/scratch/duncang/tools/WorkSpace/radio-site/src'
-let g:netrw_dirhist_4='/scratch/duncang/tools/WorkSpace/radio-site/src/com'
-let g:netrw_dirhist_5='/scratch/duncang/tools/WorkSpace/radio-site/src/com/we7'
-let g:netrw_dirhist_6='/scratch/duncang/tools/WorkSpace/radio-site/src/com/we7/international'
-let g:netrw_dirhist_7='/scratch/duncang/tools/WorkSpace/radio-site/src/com/we7/international/controllers'
-let g:netrw_dirhist_8='/scratch/duncang/tools/WorkSpace/mediagraft'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/scratch/duncang/tools/WorkSpace/mediagraft/src/com/mediagraft/podsplice/services'
+let g:netrw_dirhist_2='/scratch/duncang/tools/WorkSpace/mediagraft/src/com/mediagraft/podsplice/services/api'
+let g:netrw_dirhist_3='/scratch/duncang/tools/WorkSpace/mediagraft/src'

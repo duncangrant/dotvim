@@ -1,18 +1,19 @@
 # .bashrc
 
-. /etc/bash_completion
-
 # User specific aliases and functions
 export JAVA_HOME=/usr/lib/jvm/java-6-sun
-export PATH=$PATH:/scratch/duncang/tools/bin:/scratch/duncang/tools/google_appengine
+export PATH=$PATH:/scratch/duncang/tools/bin:/scratch/duncang/tools/go/bin
 export GIT_TEMPLATE_DIR=~/.git_template/
+export ANT_HOME=/scratch/duncang/tools/apache-ant-1.8.4/
+export IDEA_PROPERTIES=/scratch/duncang/tools/idea-IU-117.798/bin/idea.properties
+
 alias grep='grep --color=auto'
 alias ls='ls --color'
 alias tomcat='cd /scratch/duncang/tools/tomcat'
 alias ws='cd /scratch/duncang/tools/WorkSpace'
 alias tools='cd /scratch/duncang/tools'
-alias jgrep='grep -ir --include=*.{java,js,css,xml,as,jsp, jspf}'
-alias ggrep='grep -ir --exclude-dir=.svn'
+alias jgrep='grep -ir --include=*.{java,js,css,xml,as,jsp,jspf}'
+alias ggrep='grep -ir --exclude-dir=.svn,.git'
 alias js="java -cp /scratch/duncang/tools/rhino/js.jar:/scratch/duncang/tools/rhino/jline.jar jline.ConsoleRunner org.mozilla.javascript.tools.shell.Main -opt -1"
 alias u="git pull upstream develop"
 alias s="git status"
@@ -30,6 +31,8 @@ export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
     -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
     -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
 
+export EDITOR=/usr/local/bin/vim
+
 export ANT_OPTS=-XX:MaxPermSize=256m
 
 ulimit -n 10000
@@ -38,3 +41,5 @@ ulimit -n 10000
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
+
+. /etc/bash_completion
