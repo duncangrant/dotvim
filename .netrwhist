@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/scratch/duncang/tools/WorkSpace/mediagraft/src/com/mediagraft/podsplice/services'
-let g:netrw_dirhist_2='/scratch/duncang/tools/WorkSpace/mediagraft/src/com/mediagraft/podsplice/services/api'
-let g:netrw_dirhist_3='/scratch/duncang/tools/WorkSpace/mediagraft/src'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/scratch/duncang/tools/WorkSpace/events-warehouse/test/we7test/warehouse/starSchemas'
+let g:netrw_dirhist_2='/scratch/duncang/tools/WorkSpace/events-warehouse/build/testResults/output'
+let g:netrw_dirhist_3='/scratch/duncang/tools/WorkSpace/events-warehouse/build/testResults/output/unit'
+let g:netrw_dirhist_4='/scratch/duncang/tools/WorkSpace/recommendations/test/we7test/event'

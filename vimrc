@@ -68,6 +68,8 @@ set t_RV=
 set path+=**
 " set relativenumber
 set undofile
+"Show status line with filename
+set laststatus=2
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
