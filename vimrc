@@ -41,6 +41,7 @@ syntax on
 set filetype=on
 filetype plugin on
 filetype indent on
+au BufNewFile,BufRead *.hivesql set filetype=sql
 
 " HTML (tab width 2 chr, no wrapping)
  autocmd FileType html set sw=2
